@@ -1,0 +1,500 @@
+@font-face {
+    font-family:heading;
+    src: url('../FONTS/Lumanosimo-Regular.ttf');
+}
+*{  
+    font-family: 'Lumanosimo', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+/* common to all pages */
+/* header */
+
+#menu{
+    padding: 0px;
+}
+#head-top{
+    padding-top:17px;
+    padding-bottom:17px;
+    background-color: #576574;
+    overflow: auto;
+    
+} 
+#tolfree{
+    padding-top: 7px;
+    color: #fdfdfd;
+    float: left;
+    margin: 0px;
+}
+.fa-brands{
+    background-color: #fdfdfd;
+    color:#576574;
+    border-radius: 50%;
+    padding: 7px;
+}
+#logos{
+    float: right;
+}
+#ilogo{
+    width: 125px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+/* navigation */
+.option{
+    
+    padding: 15px;
+    display: inline-block;
+    /* text-decoration: none; */
+
+}
+#menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+#menu{
+    list-style-type: none;
+    text-decoration: none;
+}
+#navigation{
+    overflow: auto;
+    background-color:#ee5253;
+}
+/* body */
+body{
+    margin: 0px;
+}
+
+.uni-padding{
+    padding:0px 7%;
+}
+
+
+#form{
+    background-color:#ee5253;
+    overflow: auto;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    display: inline-block;
+    width: 100%;
+    
+}
+#form p{
+    float: left;
+    margin: 2%;
+}
+
+#form form{
+    margin: 2%;
+}
+#form form input{
+    width: 20vw;
+}
+
+
+/*Footer */
+
+#b-foot{
+    overflow: auto;
+    background-color: #576574;
+    color: white;
+    margin: 0px;
+}
+#i-links{
+    padding-left: 10%;
+}
+#imp-links li a{
+    text-decoration: none;
+    color: white;
+}
+#imp-links{
+    list-style-type: none;
+    padding: 0px;
+}
+#imp-links li{
+    padding-bottom: 10px;
+}
+h4{ 
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+}
+.w33{
+    padding: 25px 50px;
+    box-sizing: border-box;
+    text-align: justify;
+    width: 33.33%;
+    float: left;
+}
+
+/* bottom most */
+
+#bottom{
+    background-color: #222f3e;
+    color: white;
+    margin: 0px;
+    overflow: auto;
+    text-align: center;
+    padding: 15px;
+}
+
+/* HOME page */
+#banner{
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../LOGOS-IMAGES/banner.jpg');
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    
+}
+#banner h1{
+    font-family: heading;
+    text-align: center;
+    font-size: 50px;
+}
+#banner p{
+    font-size: 20px;
+    text-align: center;
+    padding-left: 13%;
+    padding-right: 13%;
+}
+
+/* Why us section  */
+#why-us{
+    overflow: auto;
+    margin-bottom: 50px;
+}
+.w3{
+    min-width: 177px;
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 0px 50px 0px 50px;
+    box-sizing: border-box;
+}
+
+#why-us h4{
+    color: red;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: heading;
+}
+.red-heading{
+    font-family: heading;
+    text-align: center;
+    font-size: 50px;
+    color: red;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+#why-us p{
+    color: #363636;
+}
+/* SURABHI AGARWAL why us section */
+/* #whysection{
+    overflow : auto ;
+    margin-bottom: 50px ;
+}
+.red-heading{
+    color : #ee5253 ;
+    text-align : center ;
+    font-size : 50px ;
+    margin-top : 50px ;
+}
+.section33{
+    width : 33.33% ;
+    float : left ;
+    text-align : center ;
+    padding : 0px 50px 0px 50px ;
+    box-sizing: border-box ;
+}
+.section33 h2{
+    color : #ee5253 ;
+} */
+
+/* Contact-us-section */
+
+#contact-us{
+    margin: 0;
+    box-sizing: border-box;
+    overflow: auto;
+    display: flex;
+    background-color: #ee5253;
+    color: white;
+    justify-content: space-around;
+    padding:50px 0px  50px 0px;
+}
+#contact-us h3{
+    font-family:heading;
+    font-size: 32px;
+    margin:0px 0px  10px 0px;
+}
+#writen{
+    flex-flow: row wrap;
+    width: 60vw;
+}
+#contact-us-b{
+    display: flex;
+    box-sizing: border-box;
+    height: 50px;
+    color: #ee5253;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px 10px 10px 30px;
+    width: 150px;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* BLOG SECTION */
+#blog{
+    text-align: center;
+    overflow: auto;
+}
+.div33{
+    box-sizing: border-box;
+    width: 33.33%;
+    min-width: 178px;
+    float: left;
+    padding: 0px 30px 0px 30px;
+    text-align: center;
+}
+#blog3cover h6{
+    color: red;
+    font-size: 12px;
+}
+#blog img{
+    box-sizing: border-box;
+    padding-right:20px;
+    margin: 10px;
+    width: 176px;
+}
+#blog h1{
+    color: red;
+    font-family:heading;
+}
+
+/* About us PAGE */
+#ab-us{
+    margin-bottom: 5px;
+    font-family:heading;
+    font-size: 40px;
+}
+#content{
+    margin-top: 15px;
+}
+#ab-us,p{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+/*SUBSCRIBE SECTION STARTS */
+
+#subcover{
+    background-color: #ee5253;
+    overflow: auto;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+#subcover p{
+    float: left;
+    padding-left:20%;
+    font-size: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#input{
+    width: 20%;
+    height: 40px;
+}
+#submit{
+    width: 100px;
+    color: #ee5253;
+    background-color: white;
+    border: none;
+    height: 30px;
+    margin-left: 20px;
+}
+
+/* responsive for ipad mini */
+@media  screen  and (max-width:768px) {
+    #menu li{
+        padding: 8px;
+    }
+    #input{
+        width: 200px;
+        margin-top: 20px;
+    }
+}
+
+#navigation ul #mobile-cross,#mobile-bar{
+    display: none;
+}
+/* Responsive for mobiles */
+
+@media screen and (max-width:500px){
+    #navigation ul #mobile-cross,#mobile-bar{
+        display: block;
+    }
+    #logo{
+        text-align: center;
+    }
+    #banner h1{
+        font-size: 40px;
+    }
+    #banner p{
+        font-size: 18px;
+    }
+    
+    .uni-padding{
+    padding: 0px 18% 0px 22%;
+    }
+
+    .w3{
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+    }
+    
+    #blog3cover{
+        padding:0px
+    }
+    #blog3cover h5{
+        font-size: 23px;
+        padding-top: 10px;
+    }
+    #blog h1{
+        font-size: 30px;
+        padding-top: 30px;
+    }
+    #blog img{
+        width:223px;
+    }
+    .div33{
+        width: 100%;
+        min-width: 178px;
+        float: left;
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+    }
+    #subcover p{
+        font-size: 18px;
+        padding: 0px;
+    }
+    #subcover{
+        padding-left: 44px;
+
+    }
+    #input{
+        height: 26px;
+        width: 150px;
+    }
+    #submit{
+        height: 24px;
+        width: 60px;
+    }
+
+    .w33{
+        min-width: 250px;
+        padding: 4px 25px;
+        text-align: center;
+    }
+    #b-foot{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    #contact-us{
+        display: block;
+        text-align: center;
+        padding: 39px 18px 37px 71px;
+    }
+    
+    #contact-us p{
+        font-size: 15px;
+    }
+   
+        
+
+     #contact-us-b {
+    display: block;
+    height: 34px;
+    border-radius: 15px;
+    padding: 6px 9px 10px 11px;
+    width: 107px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+    #head-top{
+        padding-left: 21px;
+        padding-right: 21px;
+    }
+
+
+
+/* hamberger menu */
+
+/* .option{
+    
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none; 
+
+}
+#menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+#menu{
+    list-style-type: none;
+    text-decoration: none;
+}
+#navigation{
+    overflow: auto;
+    background-color:#ee5253;
+} */
+
+#navigation{
+    position: absolute;
+    top: 0px;
+    height: 100vh;
+    width: 50vw;
+    padding: 0;
+}
+
+#navigation li{
+    width: 100%;
+    border-bottom: 2px solid rgb(213, 174, 174);
+    padding-left: 30px;
+}
+#mobile-cross{
+    padding-left: 50px;
+
+}
+.fa-regular{
+    font-size: 30px;
+}
+#navigation{
+    left: -50vw;
+    transition: all 0.5s ease;
+}
+#mobile-bar{
+    padding: 18px;
+    color: white;
+    background-color: #ee5253;
+    font-size: 28px;
+}
+}
